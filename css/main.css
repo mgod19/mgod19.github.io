@@ -1,6 +1,7 @@
-body { <body style="background-color:black;">
+body { 
     margin: 60px auto;
-    width: 70%;
+    width: 70%
+    <body style="background-color:black;">;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -41,4 +42,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-<body style="background-color:black;">
+
