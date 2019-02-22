@@ -5,34 +5,11 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css"	       
 	</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #cc0000;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-</style>
-</head>
 body, html {
   height: 100%;
+  margin: 0;
 }
 
 .bg {
@@ -40,12 +17,41 @@ body, html {
   background-image: url("background.jpg");
 
   /* Full height */
-  height: 100%;
+  height: 100%; 
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg"></div>		
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cc0000;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body background="background.jpg">
 
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
